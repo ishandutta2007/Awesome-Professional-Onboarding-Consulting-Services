@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background:#0b0f19; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; border-radius:12px; overflow:hidden;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0b1120" />
+    </linearGradient>
+
+    <!-- Glowing Accents -->
+    <radialGradient id="glow-cyan" cx="15%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-indigo" cx="85%" cy="80%" r="55%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-violet" cx="50%" cy="100%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Linear Text Gradient -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="35%" stop-color="#818cf8" />
+      <stop offset="70%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#38bdf8" />
+      <animate attributeName="x1" values="0%;100%;0%" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="100%;200%;100%" dur="14s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    /* CSS Animations for Dynamic Effects */
+    @keyframes pulseCard {
+      0%, 100% { opacity: 0.75; transform: translateY(0px); }
+      50% { opacity: 1; transform: translateY(-4px); }
+    }
+    @keyframes dashLine {
+      to { stroke-dashoffset: -40; }
+    }
+    @keyframes floatPill {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    .flow-path {
+      stroke-dasharray: 6 6;
+      animation: dashLine 4s linear infinite;
+    }
+    .card-float-1 { animation: pulseCard 6s ease-in-out infinite; }
+    .card-float-2 { animation: pulseCard 7s ease-in-out infinite 1.5s; }
+    .card-float-3 { animation: pulseCard 8s ease-in-out infinite 3s; }
+    .pill-item { animation: floatPill 5s ease-in-out infinite; }
+  </style>
+
+  <!-- Deep Canvas Base -->
+  <rect width="1200" height="360" fill="url(#bg-grad)" />
+  <rect width="1200" height="360" fill="url(#grid)" />
+  <rect width="1200" height="360" fill="url(#glow-cyan)" />
+  <rect width="1200" height="360" fill="url(#glow-indigo)" />
+  <rect width="1200" height="360" fill="url(#glow-violet)" />
+
+  <!-- Dynamic Background Workflow Lines -->
+  <g opacity="0.35">
+    <path class="flow-path" d="M 80 80 Q 300 20 600 80 T 1120 70" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <path class="flow-path" d="M 60 290 Q 350 330 650 285 T 1140 300" fill="none" stroke="#818cf8" stroke-width="1.5" />
+  </g>
+
+  <!-- Subtle Ambient Workflow Background Cards (Behind Typography) -->
+  <g opacity="0.45">
+    <!-- Card Left -->
+    <g class="card-float-1" transform="translate(60, 40)">
+      <rect width="180" height="54" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <circle cx="24" cy="27" r="6" fill="#38bdf8" />
+      <text x="38" y="24" fill="#94a3b8" font-size="11" font-weight="600">CLIENT INTAKE</text>
+      <text x="38" y="40" fill="#cbd5e1" font-size="12" font-weight="500">SOW &amp; Discovery</text>
+    </g>
+
+    <!-- Card Right Top -->
+    <g class="card-float-2" transform="translate(960, 40)">
+      <rect width="180" height="54" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <circle cx="24" cy="27" r="6" fill="#10b981" />
+      <text x="38" y="24" fill="#94a3b8" font-size="11" font-weight="600">PSA &amp; BILLING</text>
+      <text x="38" y="40" fill="#cbd5e1" font-size="12" font-weight="500">Utilization &amp; SLAs</text>
+    </g>
+
+    <!-- Card Bottom Center-Left -->
+    <g class="card-float-3" transform="translate(80, 265)">
+      <rect width="210" height="50" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <circle cx="22" cy="25" r="5" fill="#a855f7" />
+      <text x="36" y="23" fill="#94a3b8" font-size="10" font-weight="600">PORTAL &amp; DOCS</text>
+      <text x="36" y="38" fill="#cbd5e1" font-size="11" font-weight="500">ClientShare / Documenso</text>
+    </g>
+
+    <!-- Card Bottom Right -->
+    <g class="card-float-1" transform="translate(920, 265)">
+      <rect width="200" height="50" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <circle cx="22" cy="25" r="5" fill="#38bdf8" />
+      <text x="36" y="23" fill="#94a3b8" font-size="10" font-weight="600">OPEN-SOURCE STACK</text>
+      <text x="36" y="38" fill="#cbd5e1" font-size="11" font-weight="500">Alga PSA • Pydici • Odoo</text>
+    </g>
+  </g>
+
+  <!-- FOREGROUND: Main Title & Subtitle (High Contrast, Layered on Top) -->
+  <g id="foreground-content">
+    <!-- Super-title Tag -->
+    <g transform="translate(600, 110)">
+      <rect x="-140" y="-15" width="280" height="30" rx="15" fill="#1e293b" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.2" />
+      <text text-anchor="middle" y="5" fill="#38bdf8" font-size="11" font-weight="700" letter-spacing="1.5">ENTERPRISE CONSULTING &amp; PSA</text>
+    </g>
+
+    <!-- Main Headline -->
+    <text x="600" y="165" text-anchor="middle" fill="url(#title-grad)" font-size="34" font-weight="800" letter-spacing="-0.5">
+      Awesome Professional Onboarding
+    </text>
+    <text x="600" y="202" text-anchor="middle" fill="#ffffff" font-size="28" font-weight="700" letter-spacing="-0.3">
+      &amp; Consulting Services
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="236" text-anchor="middle" fill="#94a3b8" font-size="14.5" font-weight="400">
+      Curated Ecosystem for Client Onboarding, PSA Platforms &amp; Self-Hosted Consulting Operations
+    </text>
+
+    <!-- Floating Technology Pills -->
+    <g class="pill-item" transform="translate(600, 275)">
+      <!-- Pill 1 -->
+      <g transform="translate(-250, 0)">
+        <rect x="-48" y="-12" width="96" height="24" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" />
+        <text text-anchor="middle" y="4" fill="#cbd5e1" font-size="10.5" font-weight="600">🚀 PSA Tools</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(-125, 0)">
+        <rect x="-58" y="-12" width="116" height="24" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" />
+        <text text-anchor="middle" y="4" fill="#cbd5e1" font-size="10.5" font-weight="600">🤝 Client Portals</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(5, 0)">
+        <rect x="-55" y="-12" width="110" height="24" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" />
+        <text text-anchor="middle" y="4" fill="#cbd5e1" font-size="10.5" font-weight="600">⏱️ Time &amp; Billing</text>
+      </g>
+      <!-- Pill 4 -->
+      <g transform="translate(135, 0)">
+        <rect x="-56" y="-12" width="112" height="24" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" />
+        <text text-anchor="middle" y="4" fill="#cbd5e1" font-size="10.5" font-weight="600">📋 SOW Workflows</text>
+      </g>
+      <!-- Pill 5 -->
+      <g transform="translate(258, 0)">
+        <rect x="-52" y="-12" width="104" height="24" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" />
+        <text text-anchor="middle" y="4" fill="#cbd5e1" font-size="10.5" font-weight="600">🔒 Open Source</text>
+      </g>
+    </g>
+  </g>
+</svg>

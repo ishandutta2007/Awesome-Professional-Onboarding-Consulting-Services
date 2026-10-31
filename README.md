@@ -1,39 +1,49 @@
-# Awesome-Professional-Onboarding-Consulting-Services
+<div align="center">
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<img src="./assets/banner.svg" alt="Awesome Professional Onboarding & Consulting Services Banner" width="100%" />
+
+# 🌟 Awesome Professional Onboarding & Consulting Services
+
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 [![Tracked Topics](https://img.shields.io/badge/topics-onboarding%20%7C%20consulting%20%7C%20psa-blue.svg)](https://github.com/ishandutta2007/Awesome-Professional-Onboarding-Consulting-Services)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](file:///C:/Users/hp/Documents/Projects/Awesome-Professional-Onboarding-Consulting-Services/LICENSE)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-A curated list of top **Professional Onboarding & Consulting Services platforms**, **Professional Services Automation (PSA) tools**, **client onboarding solutions**, and **self-hosted open-source software**. Designed for consulting firms, digital agencies, managed service providers (MSPs), system integrators, and enterprise professional services teams.
+**A curated index of premier SaaS platforms, enterprise consulting practices, and open-source software for Professional Services Automation (PSA), client onboarding, engagement management, and self-hosted operations.** 🚀
 
----
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Enterprise Consulting Platforms](#saas--enterprise-consulting-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-  - [PSA, ERP & Workflow Management](#psa-erp--workflow-management)
-  - [Client Onboarding, Scheduling & Portals](#client-onboarding-scheduling--portals)
-- [Feature Comparison Matrix](#feature-comparison-matrix)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer & Operational Costs](#disclaimer--operational-costs)
+</div>
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
 
-The global **Professional Services Automation (PSA) and Client Onboarding Software** market is estimated at **$14.2 billion in 2026** (projected to reach over **$24.5 billion by 2031 at an 11.6% CAGR**), while the broader IT and Management Consulting market exceeds **$1.1 trillion**. 
-
-The sector is **moderately fragmented**: mega-cap consultancies and enterprise SaaS vendors (such as Accenture, Deloitte, PwC, and HubSpot) dominate large enterprise digital transformations, while mid-market and boutique consultancies rely on specialized PSA and client onboarding SaaS (e.g., Rocketlane, GuideCX, FinancialForce/Certinia, Mavenlink/Kantata) alongside modern open-source self-hosted solutions for data sovereignty, cost predictability, and custom workflows.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 SaaS & Enterprise Consulting Platforms](#-saas--enterprise-consulting-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⚙️ PSA, ERP & Workflow Management](#️-psa-erp--workflow-management)
+  - [🤝 Client Onboarding, Scheduling & Portals](#-client-onboarding-scheduling--portals)
+- [🧩 Feature Comparison Matrix](#-feature-comparison-matrix)
+- [📈 Star History](#star-history)
+- [💖 Support](#-support)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer & Operational Costs](#️-disclaimer--operational-costs)
 
 ---
 
-## SaaS & Enterprise Consulting Platforms
+## 📊 Sector Overview & Market Dynamics
 
-Below is an overview of category-defining enterprise consulting practices and professional onboarding SaaS solutions, ranked in descending order of company size (market capitalization / enterprise valuation / annual revenue).
+The global **Professional Services Automation (PSA) and Client Onboarding Software** market is estimated at **$14.2 billion in 2026** (projected to reach over **$24.5 billion by 2031 at an 11.6% CAGR**), while the broader IT and Management Consulting market exceeds **$1.1 trillion**. 🌐
 
-| Company / Platform | Market Valuation / Annual Revenue | Starting Tier Pricing | Free Tier / Free Trial Limits | Key Specialization & Onboarding Focus |
+The sector is **moderately fragmented**: mega-cap consultancies and enterprise SaaS vendors (such as Accenture, Deloitte, PwC, and HubSpot) dominate large enterprise digital transformations, while mid-market and boutique consultancies rely on specialized PSA and client onboarding SaaS (e.g., Rocketlane, GuideCX, FinancialForce/Certinia, Mavenlink/Kantata) alongside modern open-source self-hosted solutions for data sovereignty, cost predictability, and custom workflows. 📈
+
+---
+
+## 💼 SaaS & Enterprise Consulting Platforms
+
+Below is an overview of category-defining enterprise consulting practices and professional onboarding SaaS solutions, ranked in descending order of company size (market capitalization / enterprise valuation / annual revenue). 🏢
+
+| 🏢 Company / Platform | 💰 Market Valuation / Annual Revenue | 🏷️ Starting Tier Pricing | ⏳ Free Tier / Free Trial Limits | 🎯 Key Specialization & Onboarding Focus |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Accenture](https://www.accenture.com/)** | ~$220 Billion Market Cap (~$65B ARR) | $150,000 per implementation engagement | 0-day free trial; Initial 1-hour discovery consultation call only | Enterprise digital transformation, custom system rollout, and global change management. |
 | **[PwC Digital](https://www.pwc.com/)** | ~$55.4 Billion Annual Revenue | $100,000 per advisory engagement | 0-day free trial; Initial strategy diagnostic workshop only | Digital business transformation, cloud enablement, governance, and regulatory onboarding. |
@@ -48,13 +58,13 @@ Below is an overview of category-defining enterprise consulting practices and pr
 
 ---
 
-## Open-Source GitHub Projects
+## 🔓 Open-Source GitHub Projects
 
-Explore production-grade open-source software for building, automating, and self-hosting professional services operations, client portals, client onboarding tours, and enterprise resource planning. Sorted in descending order of GitHub star count.
+Explore production-grade open-source software for building, automating, and self-hosting professional services operations, client portals, client onboarding tours, and enterprise resource planning. Sorted in descending order of GitHub star count. ⭐
 
-### PSA, ERP & Workflow Management
+### ⚙️ PSA, ERP & Workflow Management
 
-| Project | GitHub Stars | License | Primary Tech Stack | Description & Onboarding Strengths |
+| 📦 Project | ⭐ GitHub Stars | 📜 License | 🛠️ Primary Tech Stack | 💡 Description & Onboarding Strengths |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Twenty](https://github.com/twentyhq/twenty)** | [![Twenty Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | AGPL-3.0 | TypeScript / NestJS / React | Modern CRM alternative designed for professional services and customer engagement pipelines; extensible data models and clean client records management. |
 | **[Odoo](https://github.com/odoo/odoo)** | [![Odoo Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | LGPL-3.0 | Python / JavaScript | Full-suite open-source business management suite including Project Management, Timesheets, Invoicing, PSA capabilities, and Client Portals. |
@@ -65,22 +75,22 @@ Explore production-grade open-source software for building, automating, and self
 | **[Alga PSA](https://github.com/Nine-Minds/alga-psa)** | [![Alga PSA Stars](https://img.shields.io/github/stars/Nine-Minds/alga-psa?style=social&color=white)](https://github.com/Nine-Minds/alga-psa/stargazers) | AGPL-3.0 | TypeScript / Next.js / Docker | Modern open-source PSA platform for MSPs featuring ticketing, multi-currency invoicing, time tracking, SLA workflows, and an automation extension hub. |
 | **[Pydici](https://github.com/digitalfox/pydici)** | [![Pydici Stars](https://img.shields.io/github/stars/digitalfox/pydici?style=social&color=white)](https://github.com/digitalfox/pydici/stargazers) | AGPL-3.0 | Python / Django / MariaDB | Dedicated management and ERP web application for consulting practices; orchestrates commercial sales leads, consultant utilization, project margins, and automated billing. |
 
-### Client Onboarding, Scheduling & Portals
+### 🤝 Client Onboarding, Scheduling & Portals
 
-| Project | GitHub Stars | License | Primary Tech Stack | Description & Onboarding Strengths |
+| 📦 Project | ⭐ GitHub Stars | 📜 License | 🛠️ Primary Tech Stack | 💡 Description & Onboarding Strengths |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Cal.com](https://github.com/calcom/cal.com)** | [![Cal.com Stars](https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white)](https://github.com/calcom/cal.com/stargazers) | AGPL-3.0 | Next.js / TypeScript / Prisma | Open-source scheduling infrastructure and client booking engine to automate client onboarding calls, discovery meetings, and recurring consultant sessions. |
 | **[Documenso](https://github.com/documenso/documenso)** | [![Documenso Stars](https://img.shields.io/github/stars/documenso/documenso?style=social&color=white)](https://github.com/documenso/documenso/stargazers) | AGPL-3.0 | TypeScript / Next.js / Prisma | Open-source digital signature platform to automate client engagement letters, Master Service Agreements (MSAs), Statements of Work (SOWs), and NDAs during client onboarding. |
 | **[Formbricks](https://github.com/formbricks/formbricks)** | [![Formbricks Stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers) | AGPL-3.0 | Next.js / TypeScript / Tailwind | Privacy-first survey and onboarding feedback engine; collect client requirements, discovery briefs, and post-onboarding satisfaction scores. |
-| **[Laudspeaker](https://github.com/laudspeaker/laudspeaker)** | [![Laudspeaker Stars](https://img.shields.io/github/stars/laudspeaker/laudspeaker)](https://github.com/laudspeaker/laudspeaker/stargazers) | MIT / BSL | TypeScript / Node.js | Multi-channel customer engagement automation suite for designing automated client welcome emails, SMS alerts, and personalized onboarding sequences. |
+| **[Laudspeaker](https://github.com/laudspeaker/laudspeaker)** | [![Laudspeaker Stars](https://img.shields.io/github/stars/laudspeaker/laudspeaker?style=social&color=white)](https://github.com/laudspeaker/laudspeaker/stargazers) | MIT / BSL | TypeScript / Node.js | Multi-channel customer engagement automation suite for designing automated client welcome emails, SMS alerts, and personalized onboarding sequences. |
 | **[Usertour](https://github.com/usertour/usertour)** | [![Usertour Stars](https://img.shields.io/github/stars/usertour/usertour?style=social&color=white)](https://github.com/usertour/usertour/stargazers) | AGPL-3.0 | TypeScript / React / Node.js | In-app user onboarding platform offering step-by-step walkthroughs, activation checklists, and AI-assisted flow generation via MCP server integration. |
 | **[ClientShare](https://github.com/pixelcop/clientshare)** | [![ClientShare Stars](https://img.shields.io/github/stars/pixelcop/clientshare?style=social&color=white)](https://github.com/pixelcop/clientshare/stargazers) | MIT | Go / Vue.js / SQLite / S3 | Self-hosted, white-labeled client portal for professional service teams to securely exchange engagement deliverables, intake documents, and sensitive files. |
 
 ---
 
-## Feature Comparison Matrix
+## 🧩 Feature Comparison Matrix
 
-| Platform / Tool | Type | Client Onboarding & Intake | Time Tracking & Billing | SOW & Document Signing | Self-Hosted Option |
+| 🛠️ Platform / Tool | 🏷️ Type | 📝 Client Onboarding & Intake | ⏱️ Time Tracking & Billing | ✍️ SOW & Document Signing | 🖥️ Self-Hosted Option |
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | **HubSpot Professional Services** | SaaS / Services | Yes | Yes (Hubs) | Yes (Quotes) | No |
 | **Accenture / Deloitte / PwC** | Enterprise Consulting | Yes | Yes | Yes | No |
@@ -97,7 +107,26 @@ Explore production-grade open-source software for building, automating, and self
 
 ---
 
-## How to Contribute
+##  Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Professional-Onboarding-Consulting-Services&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Professional-Onboarding-Consulting-Services&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+Thank you for exploring and using this repository! If this curated collection helps streamline your consulting practice, client onboarding workflows, or open-source stack, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it on GitHub.
+- 🍴 **Fork the repo** to tailor it for your team's internal standard operating procedures (SOPs).
+- 📢 **Share this list** with fellow consultants, MSP operators, founders, and engineers.
+- ☕ **Buy a coffee or sponsor ongoing development**: Support via GitHub Sponsors at [https://github.com/sponsors/ishandutta2007](https://github.com/sponsors/ishandutta2007).
+
+Your support keeps this curated ecosystem updated, transparent, and comprehensive! 🙌
+
+---
+
+## 🤝 How to Contribute
 
 Contributions are warmly encouraged! To propose updates or add new tools:
 
@@ -108,7 +137,7 @@ Contributions are warmly encouraged! To propose updates or add new tools:
 
 ---
 
-## Disclaimer & Operational Costs
+## ⚖️ Disclaimer & Operational Costs
 
 - This list is community-curated for informational and comparative purposes only and does not constitute commercial endorsement.
 - **Open-source operational considerations**: Self-hosting PSA or onboarding infrastructure eliminates vendor license lock-in but requires internal VPS/cloud resources (typically $20–$100/month), routine database backups, and ongoing security patch management.
