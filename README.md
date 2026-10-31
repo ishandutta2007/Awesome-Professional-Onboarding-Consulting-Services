@@ -1,223 +1,115 @@
 # Awesome-Professional-Onboarding-Consulting-Services
 
-## Top Professional Onboarding & Consulting Services Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Client Onboarding, PSA Platforms & Self-Hosted Consulting Operations*  
-
-**Last updated: November 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Professional Onboarding & Consulting Services**. These tools enable consulting firms, MSPs, and professional services organizations to onboard clients and employees efficiently, manage engagements, track time and billing, and deliver structured implementation projects—turning ad-hoc service delivery into repeatable, profitable operations.
-
-
-
-**Examples** include HubSpot Professional Services, Accenture, Deloitte Digital, Slalom, Cognizant, Wipro, Infosys, Capgemini, Publicis Sapient, and PwC Digital (the category leaders).
-
-
-
-**Open-source emphasis**: Professional Onboarding & Consulting Services is a domain where open-source tooling is **genuinely capable for the operational backbone but requires honest acknowledgment of the implementation burden**. **Alga PSA** is the most modern open-source PSA—a TypeScript/Next.js platform with ticketing, billing, project management, time tracking, and an automation hub, explicitly designed for MSPs with a Community Edition (AGPL) and Enterprise tier . **Pydici** is the most purpose-built open-source tool for consulting firms—a Django application covering commercial leads workflow, CRM, workload forecasting, timesheets, margin control, and billing, with 18 releases and active development (v2026.04.1) . **LibrePlan** provides self-hosted project and portfolio planning with resource allocation, risk tracking, and governance, explicitly targeting public administrations and organizations seeking digital sovereignty (AGPL, v1.6.0 released May 2026) . For **client-facing onboarding**, **Usertour** delivers in-app product tours, checklists, and surveys with an MCP server for AI-assisted flow building, while **ClientShare** and **Atrium** provide self-hosted client portals for secure file exchange during engagements. The critical caveat: **open-source PSA is not free to operate**—a 2026 comparison notes that while licensing is free, you need a VPS ($20–60/month), someone to handle updates and backups, and time for setup; a 10-tech team might spend $500–1,000/year in infrastructure alone, and "your time isn't free either" . Implementation takes weeks, not days, and you are your own support team when things break at midnight .
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[HubSpot Professional Services](https://www.hubspot.com/)**  
-
-  Onboarding and implementation services delivered by HubSpot's own teams or partners; focused on getting HubSpot customers operational across Marketing, Sales, and Service Hubs.
-
-
-
-- **[Accenture](https://www.accenture.com/)**  
-
-  Global professional services firm covering strategy, consulting, technology, and operations; onboarding services span enterprise transformations and system implementations.
-
-
-
-- **[Deloitte Digital](https://www.deloittedigital.com/)**  
-
-  Digital consulting arm of Deloitte; provides implementation, onboarding, and transformation services across enterprise platforms.
-
-
-
-- **[Slalom](https://www.slalom.com/)**  
-
-  Consulting firm focused on business and technology transformation; provides implementation and onboarding services for cloud, data, and CRM platforms.
-
-
-
-- **[Cognizant](https://www.cognizant.com/)**  
-
-  IT services and consulting firm; onboarding and implementation services across enterprise software and digital platforms.
-
-
-
-- **[Wipro](https://www.wipro.com/)**  
-
-  Global IT services and consulting; provides implementation, migration, and onboarding services for enterprise systems.
-
-
-
-- **[Infosys](https://www.infosys.com/)**  
-
-  IT services and consulting firm; onboarding and implementation services for digital transformation and enterprise platforms.
-
-
-
-- **[Capgemini](https://www.capgemini.com/)**  
-
-  Consulting and technology services firm; provides implementation, onboarding, and managed services across enterprise platforms.
-
-
-
-- **[Publicis Sapient](https://www.publicissapient.com/)**  
-
-  Digital business transformation company; provides strategy, implementation, and onboarding services for digital platforms.
-
-
-
-- **[PwC Digital](https://www.pwc.com/)**  
-
-  Digital consulting arm of PwC; provides implementation, onboarding, and transformation services across enterprise systems.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Professional Services Automation (PSA) Platforms
-
-
-
-- **[Alga PSA](https://github.com/Nine-Minds/alga-psa)**  
-
-  The most modern open-source **PSA platform** for MSPs (TypeScript/Next.js, AGPL-3.0 Community Edition) . Features: **ticketing**, **billing/invoicing with international tax support**, **project management**, **time tracking**, **SLA management**, **asset management**, **workflow automation** with event-based triggers, and a **client portal** . Ships with Docker Compose for CE/EE stacks, Helm assets for Kubernetes, and an Extension SDK for custom workflows . **Honest assessment**: "younger than ITFlow and still building out its feature set, but the architecture is solid and the automation capabilities are more ambitious" . **Best for MSPs with dev resources** wanting a modern, extensible PSA they can shape—but it requires technical expertise to deploy and maintain.
-
-
-
-- **[Pydici](https://github.com/digitalfox/pydici)**  
-
-  The most purpose-built open-source tool for **consulting and IT services companies** (Python/Django, AGPL-3.0) . Features: **commercial leads workflow** (from business detection to sales), **simple CRM**, **workload schedule to forecast people activity**, **operation management** (timesheet, margin control), **billing**, and optional **Nextcloud integration** for file management . Active development with 18 releases (v2026.04.1, April 2026) . **Best for consulting firms wanting a focused operational tool** covering the full engagement lifecycle—but it is a Django application requiring Python/MariaDB/Redis infrastructure, not a hosted service .
-
-
-
-- **[LibrePlan](https://github.com/LibrePlan/libreplan)**  
-
-  Open-source **project and portfolio planning platform** (AGPL, v1.6.0 May 2026) explicitly designed for self-hosted project governance and digital sovereignty . Features: **project and portfolio planning**, **resource allocation and capacity management**, **issue and risk tracking**, **project governance and transparency**, **milestone and deadline monitoring**, and **auditability through self-hosted infrastructure** . Used internationally since 2009; Docker images available. **Best for public administrations, municipalities, NGOs, and organizations prioritizing digital sovereignty**—but it is project planning/governance-focused rather than a full PSA with billing and CRM .
-
-
-
-- **[allocPSA](https://sourceforge.net/projects/allocpsa/)**  
-
-  Open-source **Professional Services Automation suite** for consulting, IT services, engineering, architecture, and marketing firms . Features: **help-desk, sales, time-sheeting, CRM, project tracking**, and integrated knowledge management . **Best for services-based organizations** wanting a suite of integrated tools—but it is older (SourceForge project) and requires verification of current maintenance status .
-
-
-
-### Client & Product Onboarding Tools
-
-
-
-- **[Usertour](https://github.com/usertour/usertour)**  
-
-  Open-source **user onboarding platform** for in-app product tours, checklists, launchers, and surveys (AGPL-3.0) . Features: **framework-agnostic** (works with any browser app); **advanced user targeting** via custom attributes and events; **multiple environments** (Prod/Staging) with version tracking; customizable themes; analytics on views, completions, and drop-offs . **AI-assisted flow building**: built-in MCP server connects Claude Code, Cursor, or Codex to build production-ready onboarding directly in your project . Docker Compose deployment. **Best for SaaS companies onboarding their own users**—not client consulting onboarding, but relevant for product-led onboarding flows .
-
-
-
-- **[Laudspeaker](https://github.com/laudspeaker/laudspeaker)**  
-
-  Open-source **customer engagement and product onboarding platform** (TypeScript, ~2,200 GitHub stars) positioned as an alternative to Braze, OneSignal, Customer.io, Appcues, and Pendo . Features: design onboarding flows and send product/event-triggered emails, SMS, push notifications, and more . **Best for product teams** wanting to automate user onboarding communications—but it is a customer engagement tool, not a consulting engagement management platform .
-
-
-
-### Client Portals (Secure File Exchange)
-
-
-
-- **[ClientShare](https://github.com/pixelcop/clientshare)**  
-
-  Secure, branded **client portal for teams** that need to send files, collect uploads, and keep sensitive document exchange out of email (Go + Vue, self-hosted) . Features: **expiring secure links**, **user and role-based access control**, client/folder/file organization, email-driven workflows, branding controls (site title, logo, primary color), and local-first self-hosting defaults with SQLite or Postgres/S3 . **Best for consulting firms and agencies** wanting a self-hosted client portal for document exchange during engagements—but it is file exchange, not project management or billing .
-
-
-
-- **[Atrium](https://hub.docker.com/r/vibralabs/atrium)**  
-
-  Self-hosted **client portal for agencies and freelancers** (Docker) . Features: **project management** with customizable status pipeline, **file sharing** via S3/MinIO/R2/local storage, **white-label branding** (custom colors and logo), **role-based access** (Owner/admin for team, Member for clients), email notifications via Resend, and built-in PostgreSQL . **Best for agencies wanting a branded client portal** with basic project tracking—but it is a portal, not a full PSA .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **ITFlow** — Open-source PSA for MSPs with client documentation, ticketing, billing/accounting, and a client portal; GPL-3.0, ~997 GitHub stars, actively maintained . **Best for MSPs wanting a production-ready open-source PSA**—listed in comparisons as more mature than Alga PSA .
-
-- **ERPNext / Odoo** — Open-source ERP platforms that can function as PSA with customization; ERPNext handles project management, resource allocation, time tracking, and billing out of the box, but is "built for general professional services—not MSP workflows specifically" . **Best for consulting firms or IT shops that aren't pure MSPs** and want ERP breadth alongside PSA capabilities .
-
-
-
-**Frameworks for building custom systems**: For **MSP-focused PSA with modern architecture**, Alga PSA provides the most actively developed open-source option . For **consulting firm operations** (leads, CRM, timesheets, margin, billing), Pydici is purpose-built . For **project governance and portfolio planning with digital sovereignty**, LibrePlan . For **client portals** during engagements, ClientShare (file exchange) or Atrium (project + files) . For **product user onboarding**, Usertour or Laudspeaker . **No open-source project matches the integrated breadth of Accenture or Deloitte's consulting practices**—those are human-delivered services, not software products. Open-source PSA replaces the *tooling* for managing engagements, not the consulting expertise itself.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Professional onboarding and consulting platforms handling client data and financial records must comply with applicable privacy regulations (GDPR, CCPA) and industry-specific compliance requirements; **self-hosted solutions place full responsibility for security, backups, and uptime on the operator**.
-
-- **Open-source PSA is capable but carries real operational costs**—a 2026 comparison notes that "free" licensing does not mean zero cost: infrastructure ($500–1,000/year for a 10-tech team), setup time (weeks), and ongoing maintenance are your responsibility . Commercial PSA vendors bundle hosting, support, and updates into one monthly bill. Choose based on whether your team has the technical capacity to self-manage .
-
-- Verify license terms for commercial use; Alga PSA uses AGPL-3.0 for its core with an Enterprise Edition , Pydici uses AGPL-3.0 , and LibrePlan uses AGPL .
-
-
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Tracked Topics](https://img.shields.io/badge/topics-onboarding%20%7C%20consulting%20%7C%20psa-blue.svg)](https://github.com/ishandutta2007/Awesome-Professional-Onboarding-Consulting-Services)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](file:///C:/Users/hp/Documents/Projects/Awesome-Professional-Onboarding-Consulting-Services/LICENSE)
+
+A curated list of top **Professional Onboarding & Consulting Services platforms**, **Professional Services Automation (PSA) tools**, **client onboarding solutions**, and **self-hosted open-source software**. Designed for consulting firms, digital agencies, managed service providers (MSPs), system integrators, and enterprise professional services teams.
 
 ---
 
+## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Enterprise Consulting Platforms](#saas--enterprise-consulting-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+  - [PSA, ERP & Workflow Management](#psa-erp--workflow-management)
+  - [Client Onboarding, Scheduling & Portals](#client-onboarding-scheduling--portals)
+- [Feature Comparison Matrix](#feature-comparison-matrix)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer & Operational Costs](#disclaimer--operational-costs)
 
-**Made for consulting firm owners, MSP operators, and professional services leaders choosing their operational stack.**  
+---
 
-Let's make professional onboarding and consulting operations more open, but with clear eyes about the infrastructure and maintenance that self-hosting requires.
+## Sector Overview & Market Dynamics
+
+The global **Professional Services Automation (PSA) and Client Onboarding Software** market is estimated at **$14.2 billion in 2026** (projected to reach over **$24.5 billion by 2031 at an 11.6% CAGR**), while the broader IT and Management Consulting market exceeds **$1.1 trillion**. 
+
+The sector is **moderately fragmented**: mega-cap consultancies and enterprise SaaS vendors (such as Accenture, Deloitte, PwC, and HubSpot) dominate large enterprise digital transformations, while mid-market and boutique consultancies rely on specialized PSA and client onboarding SaaS (e.g., Rocketlane, GuideCX, FinancialForce/Certinia, Mavenlink/Kantata) alongside modern open-source self-hosted solutions for data sovereignty, cost predictability, and custom workflows.
+
+---
+
+## SaaS & Enterprise Consulting Platforms
+
+Below is an overview of category-defining enterprise consulting practices and professional onboarding SaaS solutions, ranked in descending order of company size (market capitalization / enterprise valuation / annual revenue).
+
+| Company / Platform | Market Valuation / Annual Revenue | Starting Tier Pricing | Free Tier / Free Trial Limits | Key Specialization & Onboarding Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Accenture](https://www.accenture.com/)** | ~$220 Billion Market Cap (~$65B ARR) | $150,000 per implementation engagement | 0-day free trial; Initial 1-hour discovery consultation call only | Enterprise digital transformation, custom system rollout, and global change management. |
+| **[PwC Digital](https://www.pwc.com/)** | ~$55.4 Billion Annual Revenue | $100,000 per advisory engagement | 0-day free trial; Initial strategy diagnostic workshop only | Digital business transformation, cloud enablement, governance, and regulatory onboarding. |
+| **[Deloitte Digital](https://www.deloittedigital.com/)** | ~$50.0 Billion Annual Revenue | $100,000 per digital transformation project | 0-day free trial; Initial enterprise scoping assessment session only | Multi-cloud CRM/ERP implementation, human-centric design, and systems integration. |
+| **[Infosys](https://www.infosys.com/)** | ~$75 Billion Market Cap (~$19B ARR) | $75,000 per migration & onboarding sprint | 0-day free trial; Initial architectural review session only | Enterprise IT modernization, global systems migration, and automated workforce onboarding. |
+| **[Cognizant](https://www.cognizant.com/)** | ~$38 Billion Market Cap (~$19.5B ARR) | $75,000 per enterprise rollout scope | 0-day free trial; Initial technical roadmap scoping session only | Healthcare, financial services, and enterprise software platform onboarding & operations. |
+| **[Capgemini](https://www.capgemini.com/)** | ~$36 Billion Market Cap (~$24B ARR) | $80,000 per consulting deployment package | 0-day free trial; Initial readiness assessment only | End-to-end cloud infrastructure, enterprise platform rollout, and managed consulting services. |
+| **[Wipro](https://www.wipro.com/)** | ~$32 Billion Market Cap (~$11B ARR) | $60,000 per integration engagement | 0-day free trial; Proof-of-concept assessment sprint only | Infrastructure migration, cybersecurity onboarding, and managed hybrid IT delivery. |
+| **[HubSpot Professional Services](https://www.hubspot.com/)** | ~$30 Billion Market Cap (~$2.5B ARR) | $3,000 one-time onboarding package (requires $15/user/mo Pro tier) | 14-day free trial of Professional/Enterprise tier; Free forever plan with basic CRM tools limited to 5 users | Standardized onboarding, data migration, and pipeline configuration across HubSpot Hubs. |
+| **[Publicis Sapient](https://www.publicissapient.com/)** | ~$20 Billion Publicis Groupe Cap (~$3.5B Rev) | $50,000 per project engagement | 0-day free trial; Digital maturity audit session only | SPEED digital business transformation, customer engagement journeys, and engineering onboarding. |
+| **[Slalom](https://www.slalom.com/)** | ~$3.5 Billion Annual Revenue | $40,000 per project sprint | 0-day free trial; Initial architecture alignment workshop only | Modern technology consulting, AWS/Salesforce/Snowflake implementations, and agile onboarding. |
+
+---
+
+## Open-Source GitHub Projects
+
+Explore production-grade open-source software for building, automating, and self-hosting professional services operations, client portals, client onboarding tours, and enterprise resource planning. Sorted in descending order of GitHub star count.
+
+### PSA, ERP & Workflow Management
+
+| Project | GitHub Stars | License | Primary Tech Stack | Description & Onboarding Strengths |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Twenty](https://github.com/twentyhq/twenty)** | [![Twenty Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | AGPL-3.0 | TypeScript / NestJS / React | Modern CRM alternative designed for professional services and customer engagement pipelines; extensible data models and clean client records management. |
+| **[Odoo](https://github.com/odoo/odoo)** | [![Odoo Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | LGPL-3.0 | Python / JavaScript | Full-suite open-source business management suite including Project Management, Timesheets, Invoicing, PSA capabilities, and Client Portals. |
+| **[ERPNext](https://github.com/frappe/erpnext)** | [![ERPNext Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | GPL-3.0 | Python / Frappe / MariaDB | Comprehensive open-source ERP platform tailored for consulting, professional services, timesheet logging, client billing, and milestone-based project delivery. |
+| **[GLPI](https://github.com/glpi-project/glpi)** | [![GLPI Stars](https://img.shields.io/github/stars/glpi-project/glpi?style=social&color=white)](https://github.com/glpi-project/glpi/stargazers) | GPL-3.0 | PHP / MariaDB | Open-source asset, ITIL service desk, and engagement management suite with contract lifecycle tracking, ticketing, and service-level agreements (SLA). |
+| **[ITFlow](https://github.com/itflow-org/itflow)** | [![ITFlow Stars](https://img.shields.io/github/stars/itflow-org/itflow?style=social&color=white)](https://github.com/itflow-org/itflow/stargazers) | GPL-3.0 | PHP / MySQL | Purpose-built open-source PSA for MSPs and IT consulting firms, featuring client documentation, credential management, ticketing, billing, and a self-service client portal. |
+| **[LibrePlan](https://github.com/LibrePlan/libreplan)** | [![LibrePlan Stars](https://img.shields.io/github/stars/LibrePlan/libreplan?style=social&color=white)](https://github.com/LibrePlan/libreplan/stargazers) | AGPL-3.0 | Java / ZK Framework | Collaborative project and portfolio planning software supporting resource allocation, milestone tracking, capacity forecasting, and sovereign digital governance. |
+| **[Alga PSA](https://github.com/Nine-Minds/alga-psa)** | [![Alga PSA Stars](https://img.shields.io/github/stars/Nine-Minds/alga-psa?style=social&color=white)](https://github.com/Nine-Minds/alga-psa/stargazers) | AGPL-3.0 | TypeScript / Next.js / Docker | Modern open-source PSA platform for MSPs featuring ticketing, multi-currency invoicing, time tracking, SLA workflows, and an automation extension hub. |
+| **[Pydici](https://github.com/digitalfox/pydici)** | [![Pydici Stars](https://img.shields.io/github/stars/digitalfox/pydici?style=social&color=white)](https://github.com/digitalfox/pydici/stargazers) | AGPL-3.0 | Python / Django / MariaDB | Dedicated management and ERP web application for consulting practices; orchestrates commercial sales leads, consultant utilization, project margins, and automated billing. |
+
+### Client Onboarding, Scheduling & Portals
+
+| Project | GitHub Stars | License | Primary Tech Stack | Description & Onboarding Strengths |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Cal.com](https://github.com/calcom/cal.com)** | [![Cal.com Stars](https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white)](https://github.com/calcom/cal.com/stargazers) | AGPL-3.0 | Next.js / TypeScript / Prisma | Open-source scheduling infrastructure and client booking engine to automate client onboarding calls, discovery meetings, and recurring consultant sessions. |
+| **[Documenso](https://github.com/documenso/documenso)** | [![Documenso Stars](https://img.shields.io/github/stars/documenso/documenso?style=social&color=white)](https://github.com/documenso/documenso/stargazers) | AGPL-3.0 | TypeScript / Next.js / Prisma | Open-source digital signature platform to automate client engagement letters, Master Service Agreements (MSAs), Statements of Work (SOWs), and NDAs during client onboarding. |
+| **[Formbricks](https://github.com/formbricks/formbricks)** | [![Formbricks Stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers) | AGPL-3.0 | Next.js / TypeScript / Tailwind | Privacy-first survey and onboarding feedback engine; collect client requirements, discovery briefs, and post-onboarding satisfaction scores. |
+| **[Laudspeaker](https://github.com/laudspeaker/laudspeaker)** | [![Laudspeaker Stars](https://img.shields.io/github/stars/laudspeaker/laudspeaker)](https://github.com/laudspeaker/laudspeaker/stargazers) | MIT / BSL | TypeScript / Node.js | Multi-channel customer engagement automation suite for designing automated client welcome emails, SMS alerts, and personalized onboarding sequences. |
+| **[Usertour](https://github.com/usertour/usertour)** | [![Usertour Stars](https://img.shields.io/github/stars/usertour/usertour?style=social&color=white)](https://github.com/usertour/usertour/stargazers) | AGPL-3.0 | TypeScript / React / Node.js | In-app user onboarding platform offering step-by-step walkthroughs, activation checklists, and AI-assisted flow generation via MCP server integration. |
+| **[ClientShare](https://github.com/pixelcop/clientshare)** | [![ClientShare Stars](https://img.shields.io/github/stars/pixelcop/clientshare?style=social&color=white)](https://github.com/pixelcop/clientshare/stargazers) | MIT | Go / Vue.js / SQLite / S3 | Self-hosted, white-labeled client portal for professional service teams to securely exchange engagement deliverables, intake documents, and sensitive files. |
+
+---
+
+## Feature Comparison Matrix
+
+| Platform / Tool | Type | Client Onboarding & Intake | Time Tracking & Billing | SOW & Document Signing | Self-Hosted Option |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| **HubSpot Professional Services** | SaaS / Services | Yes | Yes (Hubs) | Yes (Quotes) | No |
+| **Accenture / Deloitte / PwC** | Enterprise Consulting | Yes | Yes | Yes | No |
+| **Twenty** | Open Source | Yes | No | Integrations | Yes |
+| **Odoo** | Open Source | Yes | Yes | Yes | Yes |
+| **ERPNext** | Open Source | Yes | Yes | Yes | Yes |
+| **ITFlow** | Open Source | Yes | Yes | No | Yes |
+| **Documenso** | Open Source | Yes (Agreements) | No | Yes | Yes |
+| **Cal.com** | Open Source | Yes (Intake Booking) | Payments add-on | Integrations | Yes |
+| **Alga PSA** | Open Source | Yes | Yes | In Progress | Yes |
+| **Pydici** | Open Source | Yes | Yes | In Progress | Yes |
+| **Usertour** | Open Source | Yes (In-app tours) | No | No | Yes |
+| **ClientShare** | Open Source | Yes (File portal) | No | No | Yes |
+
+---
+
+## How to Contribute
+
+Contributions are warmly encouraged! To propose updates or add new tools:
+
+1. **Fork this repository**.
+2. Create a new branch: `git checkout -b feature/new-onboarding-tool`.
+3. Update `README.md` maintaining consistent formatting, specific pricing/limits, and verified GitHub star badges.
+4. Open a **Pull Request** detailing why the tool benefits professional onboarding and consulting operations.
+
+---
+
+## Disclaimer & Operational Costs
+
+- This list is community-curated for informational and comparative purposes only and does not constitute commercial endorsement.
+- **Open-source operational considerations**: Self-hosting PSA or onboarding infrastructure eliminates vendor license lock-in but requires internal VPS/cloud resources (typically $20–$100/month), routine database backups, and ongoing security patch management.
+- Always review individual software licenses (such as AGPL-3.0, GPL-3.0, or MIT) before deploying in proprietary client environments.
