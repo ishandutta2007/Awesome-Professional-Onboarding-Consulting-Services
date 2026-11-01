@@ -60,11 +60,11 @@ Below is an overview of category-defining enterprise consulting practices and pr
 
 ## 🔓 Open-Source GitHub Projects
 
-Explore production-grade open-source software for building, automating, and self-hosting professional services operations, client portals, client onboarding tours, and enterprise resource planning. Sorted in descending order of GitHub star count. ⭐
+Explore production-grade open-source software for building, automating, and self-hosting professional services operations, client portals, client onboarding tours, and enterprise resource planning. Sorted in descending order of GitHub Stars_Count. ⭐
 
 ### ⚙️ PSA, ERP & Workflow Management
 
-| 📦 Project | ⭐ GitHub Stars | 📜 License | 🛠️ Primary Tech Stack | 💡 Description & Onboarding Strengths |
+| 📦 Project | ⭐ GitHub_Stars | 📜 License | 🛠️ Primary Tech Stack | 💡 Description & Onboarding Strengths |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Twenty](https://github.com/twentyhq/twenty)** | [![Twenty Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | AGPL-3.0 | TypeScript / NestJS / React | Modern CRM alternative designed for professional services and customer engagement pipelines; extensible data models and clean client records management. |
 | **[Odoo](https://github.com/odoo/odoo)** | [![Odoo Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | LGPL-3.0 | Python / JavaScript | Full-suite open-source business management suite including Project Management, Timesheets, Invoicing, PSA capabilities, and Client Portals. |
@@ -77,7 +77,7 @@ Explore production-grade open-source software for building, automating, and self
 
 ### 🤝 Client Onboarding, Scheduling & Portals
 
-| 📦 Project | ⭐ GitHub Stars | 📜 License | 🛠️ Primary Tech Stack | 💡 Description & Onboarding Strengths |
+| 📦 Project | ⭐ GitHub_Stars | 📜 License | 🛠️ Primary Tech Stack | 💡 Description & Onboarding Strengths |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Cal.com](https://github.com/calcom/cal.com)** | [![Cal.com Stars](https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white)](https://github.com/calcom/cal.com/stargazers) | AGPL-3.0 | Next.js / TypeScript / Prisma | Open-source scheduling infrastructure and client booking engine to automate client onboarding calls, discovery meetings, and recurring consultant sessions. |
 | **[Documenso](https://github.com/documenso/documenso)** | [![Documenso Stars](https://img.shields.io/github/stars/documenso/documenso?style=social&color=white)](https://github.com/documenso/documenso/stargazers) | AGPL-3.0 | TypeScript / Next.js / Prisma | Open-source digital signature platform to automate client engagement letters, Master Service Agreements (MSAs), Statements of Work (SOWs), and NDAs during client onboarding. |
@@ -132,7 +132,7 @@ Contributions are warmly encouraged! To propose updates or add new tools:
 
 1. **Fork this repository**.
 2. Create a new branch: `git checkout -b feature/new-onboarding-tool`.
-3. Update `README.md` maintaining consistent formatting, specific pricing/limits, and verified GitHub star badges.
+3. Update `README.md` maintaining consistent formatting, specific pricing/limits, and verified GitHub Stars_Badges.
 4. Open a **Pull Request** detailing why the tool benefits professional onboarding and consulting operations.
 
 ---
